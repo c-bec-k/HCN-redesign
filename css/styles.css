@@ -126,6 +126,10 @@ h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   margin-bottom: 0.85em;
 }
@@ -155,6 +159,22 @@ p:last-child {
 .logo a {
   text-decoration: none;
   color: black;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 /* navigation */
@@ -400,4 +420,52 @@ footer a {
   .product:last-of-type {
     margin-bottom: 0;
   }
+}
+
+/* About Styles */
+
+.about-main {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main__img {
+  display: inline-block;
+  min-width: 5em;
+  width: 14vw;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.about-main__title {
+  font-weight: bold;
+}
+
+.about-main + .about-main {
+  margin-top: 2rem;
+}
+
+/* Products Styles */
+
+.l-img-desc {
+  text-align: left;
+  max-width: 18rem;
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.l-img-desc-img {
+  display: inline;
+  float: left;
+  min-width: 5em;
+  width: 14vw;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.s2 {
+  font-size: 0.7em;
 }
