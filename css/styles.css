@@ -177,6 +177,10 @@ p:last-child {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 /* navigation */
 
 header {
