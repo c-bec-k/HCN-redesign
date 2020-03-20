@@ -189,6 +189,7 @@ nav ul {
   margin: 0;
   padding: 0;
   justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
@@ -458,7 +459,7 @@ footer a {
 }
 
 .l-img-desc-img {
-  display: inline;
+  /* display: inline; */
   float: left;
   min-width: 5em;
   width: 14vw;
@@ -481,6 +482,28 @@ footer a {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+.drop-down {
+  position: relative;
+}
+
+.drop-down > * {
+  position: absolute;
+  top: 100%;
+  transform: scale(0);
+  transition: transform 0.5s;
+  transform-origin: top;
+  background-color: white;
+
+}
+.drop-down:hover > *,
+.drop-down:focus > *,
+.drop-down:focus-within > * {
+  display: flex;
+  flex-direction: column;
+  transform: scale(1);
+
 }
 
 /**********
