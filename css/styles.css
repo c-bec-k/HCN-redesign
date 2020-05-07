@@ -244,6 +244,13 @@ nav a:focus {
 
 /* Homepage styles */
 
+.market-notice { background-color: var(--clr-primary); padding: 1rem 0 2rem 0; }
+.market-notice > * {
+  color: var(--clr-accent-dark);
+  margin: 1rem auto 1rem auto;
+  max-width: 65ch;
+}
+
 .hero {
   background-color: #555;
   background-image: url(../img/hero-bg.jpg);
